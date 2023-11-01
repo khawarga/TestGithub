@@ -16,13 +16,10 @@ GameObject:
   - component: {fileID: 7081258960538905469}
   - component: {fileID: 6943238985488297158}
   - component: {fileID: 7543403055151990191}
-<<<<<<< HEAD
+  - component: {fileID: 1498134452380329661}
   - component: {fileID: 3451833340578315825}
   - component: {fileID: 4642909658877450349}
   - component: {fileID: 8101268762127208597}
-=======
-  - component: {fileID: 1498134452380329661}
->>>>>>> Test2
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -39,7 +36,11 @@ RectTransform:
   m_GameObject: {fileID: 4634137540840149003}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
+  m_LocalScale: {x: 2, y: 1, z: 1}
+=======
+  m_LocalScale: {x: 3, y: 1, z: 1}
+>>>>>>> Test2
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -252,7 +253,19 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-<<<<<<< HEAD
+--- !u!135 &1498134452380329661
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4634137540840149003}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3451833340578315825
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -309,16 +322,12 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 7543403055151990191}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
 --- !u!64 &8101268762127208597
 MeshCollider:
-=======
---- !u!135 &1498134452380329661
-SphereCollider:
->>>>>>> Test2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -327,13 +336,7 @@ SphereCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-<<<<<<< HEAD
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-=======
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
->>>>>>> Test2
