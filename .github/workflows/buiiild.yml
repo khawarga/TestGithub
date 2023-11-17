@@ -12,15 +12,15 @@ jobs:
         targetPlatform:
           - StandaloneWindows64 # Build a Windows 64-bit standalone.
     steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          lfs: true
-      - uses: actions/cache@v3
-        with:
-          path: Assets
-          key: Assets-${{ matrix.targetPlatform }}
-          restore-keys: Library-
+     # - uses: actions/checkout@v3
+     #   with:
+     #     fetch-depth: 0
+     #     lfs: true
+     # - uses: actions/cache@v3
+     #   with:
+     #     path: Assets
+     #     key: Assets-${{ matrix.targetPlatform }}
+     #    restore-keys: Library-
       - if: matrix.targetPlatform == 'Android'
         uses: jlumbroso/free-disk-space@v1.3.0
       - uses: game-ci/unity-builder@v3
