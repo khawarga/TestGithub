@@ -1,6 +1,6 @@
 # Github Action and SmartMerge (Unityyamlmerge)
 
-##How to use Unity Smart Merge
+## How to use Unity Smart Merge
 
 1. Download git for windows (https://gitforwindows.org/)
    
