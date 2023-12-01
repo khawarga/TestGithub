@@ -1,4 +1,36 @@
 # Github Action and SmartMerge (Unityyamlmerge)
+
+##How to use Unity Smart Merge
+
+1. Download git for windows (https://gitforwindows.org/)
+   
+2. Right Click on the unity project directory and select Git Bash Here
+
+![Screenshot 2023-12-01 165257](https://github.com/khawarga/TestGithub/assets/51886512/6ea1f222-f80f-41bf-b7b8-52964aa45edc)
+
+3. Enter this the following command (check https://docs.unity3d.com/Manual/SmartMerge.html and search for the git section)
+   For the path to unityyamlmerge you can search on your unity editor file (Unity Editor > your unity editor version > Editor > Data > Tools)
+   
+![Screenshot 2023-12-01 164923](https://github.com/khawarga/TestGithub/assets/51886512/60b9cca7-2e8d-402c-96ca-75f673c3e226)
+
+4. Install tortoiseGit (https://tortoisegit.org/)
+
+5. Change the setting of tortoise git (Right Click > Tortoise Git > Setting) to add .unity file extension
+   Check the unity smart merge page and go to the tortoise git section
+   
+![image](https://github.com/khawarga/TestGithub/assets/51886512/f1fd6265-0bfd-4b39-adca-2752f5326f21)
+
+6. Ready to use. To use it Git Bash on the unity project directory and write "git mergetool" and where there are a scene or prefab conflict the tortoise git will appear like the following image
+   
+   ![image](https://github.com/khawarga/TestGithub/assets/51886512/4eae99f3-7705-4042-b075-af59e680d680)
+
+    You just need to choose which line to use and save the change.
+
+if you are still confused please check the following tutorial (this guide is based on these)
+
+https://youtu.be/ZI7Uz-VnO8U?si=4t07W4WmmxT4x33q
+https://www.andreasjakl.com/resoving-unity-scene-merge-conflicts-unityyamlmerge-tortoisegit/
+
 ## How To activate github action
 
 ### 1. Activation
