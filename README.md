@@ -8,7 +8,7 @@
 
 ![Screenshot 2023-12-01 165257](https://github.com/khawarga/TestGithub/assets/51886512/6ea1f222-f80f-41bf-b7b8-52964aa45edc)
 
-3. Enter this the following command (check https://docs.unity3d.com/Manual/SmartMerge.html and search for the git section)
+3. Enter this command (check https://docs.unity3d.com/Manual/SmartMerge.html and search for the git section)
    For the path to unityyamlmerge you can search on your unity editor file (Unity Editor > your unity editor version > Editor > Data > Tools)
    
 ![Screenshot 2023-12-01 164923](https://github.com/khawarga/TestGithub/assets/51886512/60b9cca7-2e8d-402c-96ca-75f673c3e226)
